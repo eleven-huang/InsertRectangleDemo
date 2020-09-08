@@ -1,0 +1,15 @@
+export const MIN_WIDTH = 4;
+export const MIN_HEIGHT = 4;
+export const MAX_S = 50;
+export const SPACE = 2;
+export const FIT_BOX_COLOR = "blue";
+export const SPACE_BOX_COLOR = "red";
+export const SPACE_BOX_BG_COLOR = "rgba(255, 255, 255, 0.75)";
+export const CANVAS_HEIGHT = 300;
+export const CANVAS_WIDTH = 1024;
+export const TOP = 0;
+export const BOTTOM = 1;
+export const LEFT = 2;
+export const RIGHT = 3;
+export const CENTER = 4;
+export const DEFAULT_S = 40;
