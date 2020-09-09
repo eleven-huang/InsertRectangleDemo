@@ -283,7 +283,7 @@ function boxDistanceToTarget(box: Box, target: Pointer): FitDistance {
   }
 
   //box above target
-  if ((box.y + box.height) <= target.y) {
+  if ((box.y + box.height) < target.y) {
     if (box.x > target.x) return {
       distance: distanceBetweenTwoPointers({x: box.x, y: box.y + box.height}, target),
       position: BOTTOM
@@ -295,7 +295,7 @@ function boxDistanceToTarget(box: Box, target: Pointer): FitDistance {
     }
 
     return {
-      distance: target.y - box.y,
+      distance: target.y - box.y - box.height,
       position: BOTTOM
     }
   }
