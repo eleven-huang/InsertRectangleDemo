@@ -1,6 +1,6 @@
 # Insert Rectangle Demo
 
-React + Typescript
+An algorithm for inserting disjoint rectangles
 
 ## Run
 

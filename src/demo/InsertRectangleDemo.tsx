@@ -75,7 +75,7 @@ const InsertRectangleDemo: React.FunctionComponent = (): JSX.Element => {
 
   return (
     <>
-      <div className="info">点击画布任意位置插入新矩形，新矩形的边长在{MIN_WIDTH}~{MAX_S}px之间随机产生</div>
+      <div className="info">Click any point in canvas to insert new Rectangle, the new rectangle's width will be random generated between {MIN_WIDTH}px and {MAX_S}px</div>
       <canvas id="canvas" ref={canvasRef} onClick={enableClick? insertBoxForTarget : insertNothing}></canvas>
     </>
   )
